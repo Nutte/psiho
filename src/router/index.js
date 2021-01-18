@@ -12,13 +12,18 @@ export default new Router({
         // Dashboards
         {
             path: '/',
-            name: 'Home',
+            name: 'Home-p',
             component: () => import('../Front/Page/Home.vue'),
         },
         {
             path: '/problems',
             name: 'Problems',
             component: () => import('../Front/Page/Problems.vue'),
+        },
+        {
+            path: '/profile',
+            name: 'Profile',
+            component: () => import('../Front/Page/Profile.vue'),
         },
         {
             path: '/control-page',
